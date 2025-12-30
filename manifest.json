@@ -1,0 +1,61 @@
+{
+    "id": "/",
+  "name": "ImAiQt - Professional Portfolio in Minutes",
+  "short_name": "ImAiQt",
+  "description": "Turn your experience into a professional portfolio website — without hiring a designer or paying for hosting.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#a78bfa",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Create Portfolio",
+      "short_name": "Create",
+      "description": "Start creating your professional portfolio",
+      "url": "/app/create?utm_source=shortcut",
+      "icons": [
+        {
+          "src": "/assets/logo.svg",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
